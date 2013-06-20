@@ -1,0 +1,25 @@
+{
+      "name":           "em-api-restrictions"
+    , "description":    "api restrictions middleware for ee-webservice ( apikey, rate limiting )"
+    , "version":        "0.1.0"
+    , "homepage":       "https://github.com/eventEmitter/em-api-restrictions"
+    , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "repository": {
+        "url":          "https://github.com/eventEmitter/em-api-restrictions"
+    }
+    , "engines": {
+        "node":         "*"
+    }
+    , "bugs": {
+        "url":          "https://github.com/eventEmitter/em-api-restrictions/issues"
+    }
+    , "dependencies": {
+          "ee-class":       "*"
+        , "ee-event":       "*"
+        , "ee-log":         "*"
+        , "ee-waiter":      "*"
+        , "ee-lru-cache":   "*"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+}
